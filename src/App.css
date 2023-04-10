@@ -1,0 +1,99 @@
+.App {
+  background-color: #EFF2F9;
+}
+.text-gray {
+  color: #C3C3C3 !important;
+}
+.show-cursor-pointer {
+  cursor: pointer;
+}
+/*Navbar Styles Start*/
+.form-icon {
+  position: relative;
+}
+.form-icon i {
+  position: absolute;
+  left:10px;
+  top:50%;
+  transform: translateY(-50%);
+}
+.form-icon .form-control-icon {
+  background-color: #EFF2F9;
+  padding-left: 30px !important;
+  width: 500px;
+}
+.fw-600 {
+  font-weight: 600;
+}
+/*Navbar Styles End*/
+
+/*Sidebar Styles Start*/
+.sidebar .active-item {
+  color:#C11E29;
+  background-color: #FFF2F2;
+}
+/*Sidebar Styles End*/
+
+/*About Us Styles Start*/
+.text-red {
+  color:#C11E29;
+}
+.w-25px {
+  width:25px;
+}
+.number-pill {
+  width:40px;
+  height:40px;
+  background-color: #FFF2F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#C11E29;
+  border-radius: 50%;
+}
+.about-us-text {
+  text-align: justify;
+}
+.w-60 {
+  width: 60%;
+}
+/*About Us Styles End*/
+
+/*Tabs Styles Start*/
+.tabs-container {
+  border-bottom: 2px solid #E3E3E3;
+  position: relative;
+}
+.tab-item {
+  font-weight: 600;
+  transform: translateY(2px);
+}
+.tab-item.active {
+  font-weight: bold;
+  border-bottom: 2px solid #C11E29;
+  color: black;
+  position: relative;
+  z-index: 1;
+}
+/*Tabs Styles End*/
+
+/*Popup Styles Start*/
+.popup-cont {
+  width:550px !important;
+  height: 100vh;
+  position: relative;
+  padding-bottom: 80px;
+}
+.popup-cont .cta-btn {
+  background-color: #C11E29 !important;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  bottom: 20px;
+  width: 95%;
+}
+.add-more-btn {
+  background-color: #FFF2F2 !important;
+  color:#C11E29 !important;
+}
+/*Popup Styles End*/
